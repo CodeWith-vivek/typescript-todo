@@ -1,8 +1,8 @@
 
 
-import { Task } from "./Task";
-import { ITaskManager } from "../interfaces/ITaskManager";
-import { ITask } from "../interfaces/ITask";
+import { Task } from "../models/task.model";
+import { ITaskManager } from "../interfaces/task-manager.interface";
+import { ITask } from "../interfaces/task.interface";
 
 export class TaskManager implements ITaskManager {
   getAllTasks(): ITask[] {
