@@ -1,6 +1,6 @@
 
 
-import { ITask } from "./ITask";
+import { ITask } from "./task.interface";
 
 export interface ITaskManager {
   addTask(task: ITask): void;

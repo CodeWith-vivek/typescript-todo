@@ -1,5 +1,5 @@
 
-import { ITask } from "../interfaces/ITask";
+import { ITask } from "../interfaces/task.interface";
 
 export abstract class Task implements ITask {
   constructor(
